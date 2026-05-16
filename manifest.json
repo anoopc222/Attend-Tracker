@@ -1,0 +1,50 @@
+{
+  "name": "AttendTrack Pro",
+  "short_name": "AttendTrack",
+  "description": "Track attendance for any activity — gym, class, work, hobby. Build consistency and hit your goals.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#080a10",
+  "background_color": "#080a10",
+  "lang": "en",
+  "categories": ["productivity", "lifestyle", "health"],
+
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+
+  "screenshots": [],
+
+  "shortcuts": [
+    {
+      "name": "Mark Attendance",
+      "short_name": "Mark",
+      "description": "Quickly mark today's attendance",
+      "url": "./index.html?action=mark",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Analytics",
+      "short_name": "Stats",
+      "description": "View your attendance analytics",
+      "url": "./index.html?action=stats",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+
+  "related_applications": [],
+  "prefer_related_applications": false
+}
